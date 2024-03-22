@@ -14,9 +14,9 @@ export default function LotteryEntrance() {
 
     // State hooks
     // https://stackoverflow.com/questions/58252454/react-hooks-using-usestate-vs-just-variables
-    const [entranceFee, setEntranceFee] = useState("0")
-    const [numberOfPlayers, setNumberOfPlayers] = useState("0")
-    const [recentWinner, setRecentWinner] = useState("0")
+    const [entranceFee, setEntranceFee] = useState("100000000000000000")
+    const [numberOfPlayers, setNumberOfPlayers] = useState("10")
+    const [recentWinner, setRecentWinner] = useState("0xAACA868E00F0b2C5eCF784308293Fe18845C87E0")
 
     const dispatch = useNotification()
 
